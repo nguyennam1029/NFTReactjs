@@ -1,0 +1,53 @@
+.contact__header h4 {
+    font-size    : 2.4rem;
+    color        : #fff;
+    margin-bottom: 8px;
+}
+
+.contact__header span {
+    font-size: 1.6rem;
+    color    : rgb(243, 243, 243);
+}
+
+.form_contact {
+    margin-top: 20px;
+}
+
+.contact__item label {
+    color    : #fff;
+    font-size: 1.6rem;
+}
+
+.contact__item input,
+.textarea {
+    color                : #fff;
+    padding              : 10px;
+    background           : transparent;
+    border               : 1px solid #343444;
+    outline              : none;
+    border-radius        : 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius   : 5px;
+    -ms-border-radius    : 5px;
+    -o-border-radius     : 5px;
+}
+
+::placeholder {
+    /* Edge */
+    color    : #fff;
+    font-size: 1.5rem;
+}
+
+.contact__btn {
+    margin-top: 30px;
+}
+
+.contact__btn button {
+    color           : #fff;
+    padding         : 8px 26px;
+    border          : none;
+    background-color: #4c4ccd;
+    outline         : none;
+    font-size       : 1.6rem;
+    border-radius   : 50px;
+}

@@ -1,0 +1,113 @@
+.modal {
+    position          : fixed;
+    inset             : 0;
+    z-index           : 9999;
+    display           : flex;
+    justify-content   : center;
+    align-items       : center;
+    transition        : .25s linear;
+    -webkit-transition: .25s linear;
+    -moz-transition   : .25s linear;
+    -ms-transition    : .25s linear;
+    -o-transition     : .25s linear;
+    color             : #fff;
+}
+
+.modal-overlay {
+    position        : absolute;
+    inset           : 0;
+    background-color: rgba(27, 27, 27, 0.738);
+    cursor          : pointer;
+}
+
+.modal-content {
+    background-color: #14141f;
+    width           : 100%;
+    max-width       : 500px;
+    min-width       : 372px;
+    border-radius   : 12px;
+    position        : relative;
+    z-index         : 10;
+    padding         : 30px;
+}
+
+.modal-close {
+    position        : absolute;
+    right           : 0;
+    top             : 0;
+    cursor          : pointer;
+    width           : 30px;
+    height          : 30px;
+    border-radius   : 100rem;
+    color           : rgb(255, 255, 255);
+    background-color: rgb(56, 41, 111);
+    padding         : 5px;
+    transform       : translate(50%, -50%);
+}
+
+.modal-main {
+    overscroll-behavior-y: contain;
+}
+
+.modal-main--top h6 {
+    font-size: 2.4rem;
+
+}
+
+.modal-main--top p {
+    font-size: 1.6rem;
+    color    : rgb(243, 243, 243);
+}
+
+.modal-main--top p span {
+    font-size  : 1.8rem;
+    font-weight: 500;
+    color      : #fff;
+}
+
+.modal-main--body {
+    margin: 10px 0;
+}
+
+.input-item input {
+    width                : 100%;
+    margin-top           : 10px;
+    padding              : 8px 26px;
+    outline              : none;
+    border               : 1px solid hwb(0 24% 76%);
+    background           : transparent;
+    color                : #fff;
+    font-size            : 1.6rem;
+    border-radius        : 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius   : 6px;
+    -ms-border-radius    : 6px;
+    -o-border-radius     : 6px;
+}
+
+.modal-main--title {
+    font-size  : 1.6rem;
+    font-weight: 400;
+}
+
+.modal-main--price {
+    font-size  : 1.6rem;
+    font-weight: 500;
+}
+
+.modal-btn {
+    font-size            : 1.4rem;
+    color                : #fff;
+    font-weight          : 500;
+    padding              : 10px 40px;
+    outline              : none;
+    border               : none;
+    background-color     : #353588;
+    border-radius        : 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius   : 50px;
+    -ms-border-radius    : 50px;
+    -o-border-radius     : 50px;
+    display              : flex;
+    margin               : 10px auto;
+}

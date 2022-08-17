@@ -1,0 +1,15 @@
+.common-section {
+    background-image   : url("../../../assets/images/bg.jpg");
+    background-repeat  : no-repeat;
+    background-position: center center;
+    background-size    : cover;
+    /* background      : url("../../../assets/images/bg.jpg") center no-repeat cover; */
+    padding-top        : 100px;
+    padding-bottom     : 50px;
+
+}
+
+.common-heading {
+    font-size: 2.8rem;
+    color    : #fff;
+}

@@ -1,0 +1,115 @@
+.header {
+    width      : 100%;
+    height     : 70px;
+    line-height: 70px;
+    position   : fixed;
+    top        : 0;
+    left       : 0;
+    right      : 0;
+    z-index    : 9999;
+    font-size  : 1.8rem;
+
+}
+
+.header__shrink {
+    background        : #000;
+    box-shadow        : 3px 3px 6px -3px #E250E5;
+    transition        : .25s linear;
+    -webkit-transition: .25s linear;
+    -moz-transition   : .25s linear;
+    -ms-transition    : .25s linear;
+    -o-transition     : .25s linear;
+}
+
+.logo h2 {
+    background             : linear-gradient(-45deg, #E250E5, #4B50E6, #E250E5, #4B50E6);
+    -webkit-background-clip: text;
+    -webkit-text-stroke    : 3px transparent;
+    -webkit-text-fill-color: #14141f;
+    background-size        : 100% 100%;
+}
+
+.nav__list {
+    gap            : 2.7rem;
+    list-style-type: none;
+    padding-left   : 0;
+    margin-bottom  : 0;
+}
+
+.nav__item a {
+    text-decoration: none;
+    color          : #fff;
+
+}
+
+.nav__item a:hover {
+    color: #ececec;
+}
+
+.active {
+    color: #E250E5 !important;
+}
+
+.nav__right .btn {
+    font-size            : 1.6rem;
+    border               : 1px solid #E250E5;
+    padding              : 8px 24px;
+    border-radius        : 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius   : 50px;
+    -ms-border-radius    : 50px;
+    -o-border-radius     : 50px;
+}
+
+.nav__right-link {
+    color          : #fff;
+    gap            : 6px;
+    text-decoration: none;
+}
+
+.menu__icon-mobile {
+    color    : #fff;
+    display  : none;
+    font-size: 2.4rem;
+}
+
+@media only screen and (max-width: 769px) {
+    .nav__menu {
+        position          : fixed;
+        top               : 0;
+        right             : 0;
+        width             : 300px;
+        height            : 100%;
+        background-color  : #353772;
+        transform         : translateX(100%);
+        -webkit-transform : translateX(100%);
+        -moz-transform    : translateX(100%);
+        -ms-transform     : translateX(100%);
+        -o-transform      : translateX(100%);
+        transition        : .25s linear;
+        -webkit-transition: .25s linear;
+        -moz-transition   : .25s linear;
+        -ms-transition    : .25s linear;
+        -o-transition     : .25s linear;
+    }
+
+    .nav__menu.active {
+        transform        : translateX(0);
+        -webkit-transform: translateX(0);
+        -moz-transform   : translateX(0);
+        -ms-transform    : translateX(0);
+        -o-transform     : translateX(0);
+    }
+
+    .nav__list {
+        flex-direction: column;
+        padding-top   : 40px !important;
+    }
+
+
+
+    .menu__icon-mobile {
+        display: block;
+        z-index: 999999;
+    }
+}

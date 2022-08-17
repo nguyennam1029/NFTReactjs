@@ -1,0 +1,7 @@
+.trending {}
+
+.trending__heading {
+    font-size    : 3rem;
+    color        : #fff;
+    margin-bottom: 60px;
+}

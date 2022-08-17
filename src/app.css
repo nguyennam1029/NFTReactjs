@@ -1,0 +1,71 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin : 0;
+    padding: 0;
+    font   : inherit;
+}
+
+body {
+    line-height     : 1.5;
+    background-color: #14141f !important;
+    overflow-x      : hidden;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display  : block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    outline: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+/* color                  : #14141f;
+background             : linear-gradient(-45deg, #E250E5, #4B50E6, #E250E5, #4B50E6);
+background-size        : 100% 100%;
+-webkit-background-clip: text;
+-webkit-text-stroke    : 3px transparent;
+-webkit-text-fill-color: #14141f;
+
+border-color: #5142FC card-color: #343444 body-color: #14141f */
+
+::-webkit-scrollbar {
+    width     : 10px;
+    background: #344343;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius        : 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius   : 50px;
+    -ms-border-radius    : 50px;
+    -o-border-radius     : 50px;
+    background           : linear-gradient(-45deg, #E250E5, #4B50E6, #E250E5, #4B50E6);
+}

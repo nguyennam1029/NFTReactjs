@@ -1,0 +1,74 @@
+.create {
+    margin: 70px 0;
+}
+
+.create__preview h5 {
+    font-size    : 2.6rem;
+    color        : #fff;
+    margin-bottom: 20px;
+}
+
+.upload__item {
+    margin-top   : 0;
+    margin-bottom: 30px !important;
+}
+
+.upload__item label {
+    color      : #fff;
+    font-size  : 1.6rem;
+    font-weight: 400;
+}
+
+.upload__item input,
+.textarea {
+    color                : #fff;
+    padding              : 10px;
+    background           : transparent;
+    border               : 1px solid #343444;
+    outline              : none;
+    border-radius        : 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius   : 5px;
+    -ms-border-radius    : 5px;
+    -o-border-radius     : 5px;
+}
+
+::placeholder {
+    /* Edge */
+    color    : #fff;
+    font-size: 1.5rem;
+}
+
+::-webkit-calendar-picker-indicator {
+    filter        : invert(1);
+    -webkit-filter: invert(1);
+    cursor        : pointer;
+}
+
+#exampleUrl {
+    padding: 50px 25px !important;
+}
+
+textarea {
+    resize: none;
+}
+
+/* .textarea {
+    background: transparent;
+    border    : 1px solid #343444;
+} */
+.upload__btn button {
+    color           : #fff;
+    padding         : 8px 26px;
+    border          : none;
+    background-color: #4c4ccd;
+    outline         : none;
+    font-size       : 1.6rem;
+    border-radius   : 50px;
+}
+
+@media screen and (max-width: 767.98px) {
+    .form__upload {
+        margin-top: 30px;
+    }
+}
